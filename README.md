@@ -67,7 +67,7 @@ Ensure the following tools and libraries are installed on your system:
 ### Clone the Repository:
 ```bash
 git clone https://github.com/AnushkaJainFirst/MediGenAI.git
-cd MediGen
+cd MediGenAI
 ```
 
 
@@ -98,17 +98,20 @@ cd MediGen
 ## 🧪 Example Input for Testing:
 ```json
 {
-  "Name": "Varsha Mishra",
-  "Age": 32,
-  "Gender": "Female",
-  "Phone": "9876543210",
-  "Existing_Conditions": "Asthma, Arthritis",
-  "Allergies": "Dust, Penicillin",
-  "Past_Surgeries": "Knee Surgery (2018)",
-  "Ongoing_Diseases": "Chronic Fatigue Syndrome",
-  "Medications": "Paracetamol, Inhaler",
-  "Lab_Results": "Normal CBC, Elevated ESR",
-  "Medical_Imaging_Files": "XRay_Chest_2023.jpg",
+  "Name": "John Doe",
+  "Age": 45,
+  "Height": 175.5,
+  "Weight": 80.2,
+  "Gender": "Male",
+  "SystolicBP": 140,
+  "DiastolicBP": 90,
+  "Cholesterol": 220,
+  "Glucose": 110,
+  "Smoking": "No",
+  "AlcoholIntake": "Yes",
+  "PhysicalActivity": "Moderate",
+  "CardiovascularDisease": "No",
+  "Medical_Imaging_Files": "CT_Scan_Abdomen_2023.jpg",
   "Consent": "Yes"
 }
 ```
